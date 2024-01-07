@@ -1,0 +1,12 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+@media screen and (max-width:570px) {
+    .card-container{
+        justify-content: center;
+    }
+}
